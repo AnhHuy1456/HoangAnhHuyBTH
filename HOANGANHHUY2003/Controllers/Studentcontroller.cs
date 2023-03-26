@@ -1,7 +1,9 @@
 
 using System.Collections.Specialized;
 using HOANGANHHUY2003.Models;
+using HOANGANHHUY2003.Data;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace HOANGANHHUY2003.Controllers
 {
@@ -37,13 +39,13 @@ namespace HOANGANHHUY2003.Controllers
         {
             if(id == null)
             {
-                return NotFound();
+                return View("NotFound");
             }
 
             var student = await _context.Students.FindAsync(id);
             if (student == null)
             {
-                return NotFound();
+                return View("NotFound");
             }
             return View(student);
         }
@@ -55,7 +57,7 @@ namespace HOANGANHHUY2003.Controllers
         {
             if (id != std.StudentID)
             {
-                return NotFound();
+                return View("NotFound");
             }
 
             if (ModelState.IsValid)
@@ -69,7 +71,7 @@ namespace HOANGANHHUY2003.Controllers
                 {
                     if(!StudentExists(std.StudentID))
                     {
-                        return NotFound();
+                        return View("NotFound");
                     }
                     else
                     {
@@ -86,13 +88,13 @@ namespace HOANGANHHUY2003.Controllers
         {
             if(id == null)
             {
-                return NotFound();
+                return View("NotFound");
             }
 
-            var std = await _context.Students.FirstOrDefaultAsync(m => m.StudentIS ==id);
+            var std = await _context.Students.FirstOrDefaultAsync(m => m.StudentID ==id);
             if(std == null)
             {
-                return NotFound();
+                return View("NotFound");
             }
             return View(std);
         }
@@ -110,7 +112,7 @@ namespace HOANGANHHUY2003.Controllers
 
                 private bool StudentExists(string id)
         {
-            return _context.Student.Any(e => e.StudentID == id);
+            return _context.Students.Any(e => e.StudentID == id);
         }
 
     }
