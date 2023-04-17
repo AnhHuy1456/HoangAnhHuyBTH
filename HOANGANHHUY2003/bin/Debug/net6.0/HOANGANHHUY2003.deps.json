@@ -9,7 +9,8 @@
       "HOANGANHHUY2003/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "7.0.4",
-          "Microsoft.EntityFrameworkCore.Sqlite": "7.0.4"
+          "Microsoft.EntityFrameworkCore.Sqlite": "7.0.4",
+          "Microsoft.EntityFrameworkCore.Tools": "7.0.4"
         },
         "runtime": {
           "HOANGANHHUY2003.dll": {}
@@ -101,6 +102,11 @@
             "assemblyVersion": "7.0.4.0",
             "fileVersion": "7.0.423.11504"
           }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/7.0.4": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "7.0.4"
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
@@ -491,6 +497,13 @@
       "sha512": "sha512-FeuV57+U4A4DO018Jy5Wkv0uYNZhyFVUUdwyVYz8TMghsZAj+3i+fOeFtD/jAWWMzDOFOF7eMni3YqLA+ufu9Q==",
       "path": "microsoft.entityframeworkcore.sqlite.core/7.0.4",
       "hashPath": "microsoft.entityframeworkcore.sqlite.core.7.0.4.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Tools/7.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-58hDB+ENGisuSjJBl1RBHL9qzFJTukFSQFl/wCU8/3ApcOH/rPrRG4PWThiJTmfHRmh8H8HExdYbtkv7wa7BLg==",
+      "path": "microsoft.entityframeworkcore.tools/7.0.4",
+      "hashPath": "microsoft.entityframeworkcore.tools.7.0.4.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
       "type": "package",

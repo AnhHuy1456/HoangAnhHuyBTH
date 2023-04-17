@@ -16,8 +16,8 @@ namespace HOANGANHHUY2003.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            var model = await _context.Students.ToListAsync();
-            return View(model);
+            var listStudent = await _context.Students.ToListAsync();
+            return View(listStudent);
         }
         public IActionResult Create()
         {

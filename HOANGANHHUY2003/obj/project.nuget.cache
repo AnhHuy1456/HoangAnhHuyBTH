@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3n5Gq9obec3BfeartzpaiyqvGcdpO/SNtCFSfyfG7bwddz3ZhbAeUNxgTsgDeUhi0yvqLgMXch638KltVWigpQ==",
+  "dgSpecHash": "c/pljJ7mZxrZilcaHet6j0WwU2Yar+NQHeGCbHqwv9QH79fcmBksGRfJBDSR1IT6mBCVf5pqRtxQQsXJGmuyPA==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\Phat trien phan mem quan li\\HOANGANHHUY2003\\HOANGANHHUY2003.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.4\\microsoft.entityframeworkcore.relational.7.0.4.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\7.0.4\\microsoft.entityframeworkcore.sqlite.7.0.4.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\7.0.4\\microsoft.entityframeworkcore.sqlite.core.7.0.4.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.4\\microsoft.entityframeworkcore.tools.7.0.4.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
