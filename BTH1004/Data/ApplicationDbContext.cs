@@ -9,7 +9,11 @@ namespace BTH1004.Data
         public ApplicationDbContext (DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
-        public DbSet<Student> Students { get; set; }
+
+        public DbSet<BTH1004.Models.Faculty> Facultys { get; set; } = default!;
         
+        public DbSet<BTH1004.Models.Student> Student { get; set; } = default!;
+    
+        public DbSet<BTH1004.Models.Employee> Employee  { get; set; } 
     }
 }
